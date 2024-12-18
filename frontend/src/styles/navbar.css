@@ -1,0 +1,45 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    color: bisque;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    align-items: center;
+    z-index: 1;
+}
+.Navbar .Menus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Navbar .Menus p{
+    margin: 0px 10px;
+    padding: 0;
+}
+.Navbar .Logo .icon{
+    font-size: 40px;
+}
+.Icons .icon{
+    font-size: 25px;
+    margin: 0px 10px;
+}
+a{
+    text-decoration: none;
+    color: bisque;
+    transition: 0.3s;
+}
+a:active{
+    color: bisque;
+}
+a:visited{
+    color:bisque;
+}
+a:hover{
+    transform: scale(1.2,1.2);
+    color:white;
+}
